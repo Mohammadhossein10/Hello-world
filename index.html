@@ -4,32 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>رزومه مهارت‌ها</title>
+
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- لینک به Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- لینک به استایل‌های شخصی (در صورت نیاز) -->
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <header>
-        <h1>رزومه من</h1>
-        <p>سلام! من یک توسعه‌دهنده وب هستم.</p>
+<body class="bg-gray-50 text-gray-900">
+    <header class="container text-center mt-5">
+        <h1 class="text-4xl font-semibold">رزومه من</h1>
+        <p class="text-lg mt-2">سلام! من یک توسعه‌دهنده وب هستم.</p>
     </header>
 
-    <section>
-        <h2>مهارت‌ها</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node.js</li>
+    <section class="container mt-5">
+        <h2 class="text-2xl font-bold mb-4">مهارت‌ها</h2>
+        <ul class="list-group">
+            <li class="list-group-item py-2 px-4 text-lg bg-blue-100 border border-gray-300 rounded-md">HTML</li>
+            <li class="list-group-item py-2 px-4 text-lg bg-blue-100 border border-gray-300 rounded-md">CSS</li>
+            <li class="list-group-item py-2 px-4 text-lg bg-blue-100 border border-gray-300 rounded-md">JavaScript</li>
+            <li class="list-group-item py-2 px-4 text-lg bg-blue-100 border border-gray-300 rounded-md">React</li>
+            <li class="list-group-item py-2 px-4 text-lg bg-blue-100 border border-gray-300 rounded-md">Node.js</li>
         </ul>
     </section>
 
-    <section>
-        <h2>تجربه کاری</h2>
-        <p>در حال یادگیری هستم .</p>
+    <section class="container mt-5">
+        <h2 class="text-2xl font-bold mb-4">تجربه کاری</h2>
+        <p class="text-lg">در حال یادگیری هستم.</p>
     </section>
 
-    <footer>
-        <p>تماس: <a href="hjm3131692@gmail.com">example@example.com</a></p>
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p>تماس: <a href="hjm3131692@gmail.com" class="text-white">hjm3131692@gmail.com</a></p>
     </footer>
+
+    <!-- Bootstrap 4 JS (برای امکاناتی مانند مودال، منوهای کشویی و غیره) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
